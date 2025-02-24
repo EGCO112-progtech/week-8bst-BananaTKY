@@ -137,7 +137,7 @@ void inOrder_R( TreeNodePtr treePtr , int space)
       inOrder_R( treePtr->rightPtr , space + 3); //Recursion to the left
       for(int i = 0 ; i < space ; i++)
       {
-         printf("   ") ;
+         printf(" ") ;
       }
       printf("%3d\n",treePtr->data) ;  //print the value 
       inOrder_R( treePtr->leftPtr , space + 3); //Recursion to the right  
